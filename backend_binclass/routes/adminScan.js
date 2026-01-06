@@ -4,6 +4,11 @@ const adminScanController = require("../controllers/adminScanController");
 const { verifyToken } = require("../middleware/authMiddleware");
 const { isAdmin } = require("../middleware/roleMiddleware");
 
+// NOTE:
+// Semua endpoint di file ini khusus ADMIN
+// Middleware: verifyToken + isAdmin
+
+
 // Semua route admin wajib login + admin
 router.use(verifyToken, isAdmin);
 
