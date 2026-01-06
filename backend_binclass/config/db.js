@@ -13,3 +13,5 @@ db.connect(err => {
 });
 
 module.exports = db;
+
+//ini adalah db.js
