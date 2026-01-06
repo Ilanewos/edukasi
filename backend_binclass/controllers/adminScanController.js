@@ -7,6 +7,12 @@ function parseId(param) {
   return id;
 }
 
+/**
+ * Admin Scan Controller
+ * Last update: minor refactor (no logic change)
+ */
+
+
 // ===============================
 // GET ALL SCANS (ONLY ACTIVE) - URUT SAMA KAYAK phpMyAdmin (id ASC)
 // ===============================
